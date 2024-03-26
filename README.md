@@ -1,2 +1,6 @@
-# food-receipe
-project on receipe finder
+# Recipie Finder
+It include
+# Receipe collection
+# Nutritional Information
+# Dietaru=y Recommondation
+# Ingredients list
