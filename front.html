@@ -1,0 +1,147 @@
+
+Chukka Harini
+11:19 (9 hours ago)
+to me
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    <script src="s.js" defer></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            background-color: #343a40;
+            color: #fff;
+            border-radius: 8px;
+            animation: slideIn 1s forwards;
+        }
+        @keyframes slideIn {
+            from {
+                transform: translateY(-100%);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+        .logo-container {
+            display: flex; /* Added to align image and text horizontally */
+            align-items: center; /* Added to vertically center image and text */
+        }
+        .logo {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%; /* This makes the element circular */
+            overflow: hidden;
+            margin-right: 20px; /* Added some space between logo and text */
+        }
+        .logo img {
+            width: 100%; /* Adjust size as needed */
+            height: auto; /* Maintain aspect ratio */
+        }
+        .project-title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav {
+            display: flex;
+            align-items: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav li {
+            margin-left: 20px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #ffc107;
+        }
+        .search-bar {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login {
+            margin-left: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .login:hover {
+            background-color: #0056b3;
+        }
+        .signup {
+            margin-left: 10px;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .signup:hover {
+            background-color: #218838;
+        }
+        h1 {
+            text-align: center; /* Center align the text */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-container">
+                <div class="logo">
+                    <img src="C:\Users\aliet\Desktop\1711431634899.png" alt="Project Logo">
+                </div>
+                <div class="project-title">Recipe Finder</div>
+            </div>
+            <nav>
+                <input type="text" class="search-bar" placeholder="Search...">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Recipes</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+                <button class="login">Login</button>
+                <button class="signup">Sign Up</button>
+            </nav>
+        </header>
+        <h1>Welcome to Recipe Finder</h1>
+        <!-- Your content goes here -->
+    </div>
+</body>
+</html>
